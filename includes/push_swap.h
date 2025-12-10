@@ -1,12 +1,19 @@
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include <stdbool.h>
-# include <limits.h>
 # include "../libft/libft.h"
+#include "../printf/ft_printf.h"
+# include "stdlib.h"
+# include "unistd.h"
+# include "stdio.h"
 
-typedef struct s_stask
+typedef struct s_stacks
 {
-    int nbr;
-    int index;
-}   t_stack;
+    int *a;
+    int *b;
+    int *a_size;
+    int *b_size;
+    char    *join_args;
+}   t_stacks;
+
+#endif
