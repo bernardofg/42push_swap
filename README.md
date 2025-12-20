@@ -54,6 +54,7 @@ AI was utilized to explore various sorting algorithms, compare their strategies,
 push_swap/
 ├── README.md
 ├── Makefile
+├── libft
 ├── includes/
 │ └── push_swap.h
 └── srcs/
@@ -62,5 +63,4 @@ push_swap/
 │ ├── main.c
 │ ├── operations.c
 │ └── utils.c
-
 ```
